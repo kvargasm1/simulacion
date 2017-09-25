@@ -7,7 +7,7 @@ package com.uniminuto.utilidades;
 
 /**
  *
- * @author osahenao
+ * @author kvargas
  */
 public class Utilidades {
 
@@ -25,6 +25,10 @@ public class Utilidades {
         
         int posnumero1 = (int)Math.round(cantidadDigitos/2);
         int posnumero2 = posnumero1 + cantidadDigitos;
+        
+//        String psrt1 = semi.substring(0,posnumero1);
+//        String part2 = semi.substring(posnumero2,semi.length());
+//     //   return psrt1 + part2;
         
         return semi.substring(posnumero1, posnumero2);
         
